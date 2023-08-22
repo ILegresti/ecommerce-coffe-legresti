@@ -5,7 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 function ColorSchemesExample() {
   return (
     <>
-        <header>
         <Navbar expand='lg' bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">Coffe name</Navbar.Brand>
@@ -16,7 +15,6 @@ function ColorSchemesExample() {
           </Nav>
         </Container>
       </Navbar>
-        </header>
     </> 
 );
 }
